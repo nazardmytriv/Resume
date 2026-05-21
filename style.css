@@ -138,6 +138,30 @@ body {
     font-size: 14px;
 }
 
+.portfolio-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.portfolio-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #3a5e90;
+    color: white;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.portfolio-btn:hover {
+    background-color: #2c476d;
+    transform: translateY(-2px);
+}
+
 .code-box {
     background-color: #f8f9fa;
     padding: 20px;
